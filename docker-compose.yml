@@ -4,6 +4,6 @@ services:
     build: .
     tty: true
     ports:
-      - "10000":10000"
+      - "10000:10000"
     volumes:
       - ./:/go/src/app
